@@ -1,0 +1,501 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local GalaxyHub = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local HorizontalLine1 = Instance.new("Frame")
+local VerticalLine1 = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Title_Roundify_12px = Instance.new("ImageLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local UICorner = Instance.new("UICorner")
+local ScrollMain = Instance.new("ScrollingFrame")
+local UICorner_2 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local MainPage = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Protected = Instance.new("TextLabel")
+local CreditsFrame = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner_4 = Instance.new("UICorner")
+local MainScreen = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_5 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local BigPP = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local DaFeet = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Keyboard = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Fling = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local HamsterBall = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Sonic = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local HatsV2 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local SpiderMan = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Invisibility = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local headless = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local FakeKick = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local DaHoodMimic = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local ComingSoon = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Dev = Instance.new("TextLabel")
+local Devs = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local OpenFrame = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
+
+--Properties:
+
+GalaxyHub.Name = "Galaxy Hub"
+GalaxyHub.Parent = game.CoreGui
+
+MainFrame.Name = "Main Frame"
+MainFrame.Parent = GalaxyHub
+MainFrame.Active = false
+MainFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+MainFrame.Position = UDim2.new(0.101846486, 0, 0.273458242, 0)
+MainFrame.Size = UDim2.new(0, 673, 0, 314)
+MainFrame.Draggable = true
+
+HorizontalLine1.Name = "HorizontalLine1"
+HorizontalLine1.Parent = MainFrame
+HorizontalLine1.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+HorizontalLine1.BorderSizePixel = 0
+HorizontalLine1.Position = UDim2.new(0.0135366553, 0, 0.124193706, 0)
+HorizontalLine1.Size = UDim2.new(0, 111, 0, 8)
+
+VerticalLine1.Name = "VerticalLine1"
+VerticalLine1.Parent = MainFrame
+VerticalLine1.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+VerticalLine1.BorderSizePixel = 0
+VerticalLine1.Position = UDim2.new(0.178318679, 0, 0, 0)
+VerticalLine1.Size = UDim2.new(0, 7, 0, 314)
+
+Title.Name = "Title"
+Title.Parent = MainFrame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.178318679, 0, -0.0541401207, 0)
+Title.Size = UDim2.new(0, 545, 0, 38)
+Title.ZIndex = 2
+Title.Font = Enum.Font.GothamBlack
+Title.Text = "FE Galaxy Hub"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 21.000
+Title.TextWrapped = true
+
+Title_Roundify_12px.Name = "Title_Roundify_12px"
+Title_Roundify_12px.Parent = Title
+Title_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Title_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_Roundify_12px.BackgroundTransparency = 1.000
+Title_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Title_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Title_Roundify_12px.Image = "rbxassetid://3570695787"
+Title_Roundify_12px.ImageColor3 = Color3.fromRGB(90, 90, 90)
+Title_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Title_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Title_Roundify_12px.SliceScale = 0.120
+
+UITextSizeConstraint.Parent = Title
+UITextSizeConstraint.MaxTextSize = 21
+
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = MainFrame
+
+ScrollMain.Name = "Scroll Main"
+ScrollMain.Parent = MainFrame
+ScrollMain.Active = true
+ScrollMain.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+ScrollMain.Position = UDim2.new(0.0135366544, 0, 0.146496817, 0)
+ScrollMain.Size = UDim2.new(0, 110, 0, 253)
+ScrollMain.ScrollBarThickness = 0
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = ScrollMain
+
+UIListLayout.Parent = ScrollMain
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 10)
+
+MainPage.Name = "MainPage"
+MainPage.Parent = ScrollMain
+MainPage.BackgroundColor3 = Color3.fromRGB(110, 0, 165)
+MainPage.Position = UDim2.new(0.0181580056, 0, 0.203831777, 0)
+MainPage.Size = UDim2.new(0, 104, 0, 20)
+MainPage.ZIndex = 2
+MainPage.Font = Enum.Font.SourceSans
+MainPage.Text = "MainPage"
+MainPage.TextColor3 = Color3.fromRGB(255, 255, 255)
+MainPage.TextScaled = true
+MainPage.TextSize = 14.000
+MainPage.TextWrapped = true
+
+UICorner_3.Parent = MainPage
+
+Protected.Name = "Protected"
+Protected.Parent = MainFrame
+Protected.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Protected.BackgroundTransparency = 1.000
+Protected.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Protected.Position = UDim2.new(0.0143267065, 0, 0.020153746, 0)
+Protected.Size = UDim2.new(0, 117, 0, 32)
+Protected.Font = Enum.Font.GothamBlack
+Protected.Text = "Protected"
+Protected.TextColor3 = Color3.fromRGB(24, 255, 255)
+Protected.TextSize = 22.000
+Protected.TextWrapped = true
+
+CreditsFrame.Name = "CreditsFrame"
+CreditsFrame.Parent = MainFrame
+CreditsFrame.Active = true
+CreditsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditsFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CreditsFrame.BorderSizePixel = 0
+CreditsFrame.Position = UDim2.new(0.20579499, 0, 0.0859872624, 0)
+CreditsFrame.Size = UDim2.new(0, 521, 0, 272)
+CreditsFrame.Visible = false
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(203, 215, 253)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(225, 226, 227))}
+UIGradient.Parent = CreditsFrame
+
+UICorner_4.CornerRadius = UDim.new(0, 20)
+UICorner_4.Parent = CreditsFrame
+
+MainScreen.Name = "Main Screen"
+MainScreen.Parent = MainFrame
+MainScreen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainScreen.Position = UDim2.new(0.206537887, 0, 0.0668789819, 0)
+MainScreen.Size = UDim2.new(0, 521, 0, 278)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(203, 215, 253)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(225, 226, 227))}
+UIGradient_2.Parent = MainScreen
+
+UICorner_5.CornerRadius = UDim.new(0, 15)
+UICorner_5.Parent = MainScreen
+
+ScrollingFrame.Archivable = false
+ScrollingFrame.Parent = MainFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Position = UDim2.new(0.206537887, 0, 0.0668789744, 0)
+ScrollingFrame.Size = UDim2.new(0, 521, 0, 278)
+ScrollingFrame.ScrollBarThickness = 0
+
+BigPP.Name = "Big PP"
+BigPP.Parent = ScrollingFrame
+BigPP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BigPP.Position = UDim2.new(0.50863719, 0, 0.0404411778, 0)
+BigPP.Size = UDim2.new(0, 119, 0, 50)
+BigPP.Font = Enum.Font.GothamBlack
+BigPP.Text = "Big PP"
+BigPP.TextColor3 = Color3.fromRGB(0, 0, 0)
+BigPP.TextSize = 22.000
+BigPP.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 20)
+UICorner_6.Parent = BigPP
+
+DaFeet.Name = "Da Feet"
+DaFeet.Parent = ScrollingFrame
+DaFeet.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DaFeet.Position = UDim2.new(0.508637249, 0, 0.148346752, 0)
+DaFeet.Size = UDim2.new(0, 119, 0, 50)
+DaFeet.Font = Enum.Font.GothamBlack
+DaFeet.Text = "Da Feet"
+DaFeet.TextColor3 = Color3.fromRGB(0, 0, 0)
+DaFeet.TextSize = 21.000
+DaFeet.TextWrapped = true
+DaFeet.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://gist.githubusercontent.com/1BlueCat/7291747e9f093555573e027621f08d6e/raw/23b48f2463942befe19d81aa8a06e3222996242c/FE%2520Da%2520Feets'))()
+end)
+
+UICorner_7.CornerRadius = UDim.new(0, 20)
+UICorner_7.Parent = DaFeet
+
+Keyboard.Name = "Keyboard"
+Keyboard.Parent = ScrollingFrame
+Keyboard.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Keyboard.Position = UDim2.new(0.752399266, 0, 0.148346752, 0)
+Keyboard.Size = UDim2.new(0, 119, 0, 50)
+Keyboard.Font = Enum.Font.GothamBlack
+Keyboard.Text = "KeyBoard"
+Keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
+Keyboard.TextSize = 21.000
+Keyboard.TextWrapped = true
+Keyboard.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+end)
+
+UICorner_8.CornerRadius = UDim.new(0, 20)
+UICorner_8.Parent = Keyboard
+
+Fling.Name = "Fling"
+Fling.Parent = ScrollingFrame
+Fling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fling.Position = UDim2.new(0.262955874, 0, 0.0372564644, 0)
+Fling.Size = UDim2.new(0, 119, 0, 50)
+Fling.Font = Enum.Font.GothamBlack
+Fling.Text = "Fling"
+Fling.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fling.TextSize = 22.000
+Fling.TextWrapped = true
+Fling.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/n7jZdcfd'))()
+end)
+
+UICorner_9.CornerRadius = UDim.new(0, 20)
+UICorner_9.Parent = Fling
+
+Fly.Name = "Fly"
+Fly.Parent = ScrollingFrame
+Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fly.Position = UDim2.new(0.0249520168, 0, 0.0404411778, 0)
+Fly.Size = UDim2.new(0, 119, 0, 50)
+Fly.Font = Enum.Font.GothamBlack
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 35.000
+Fly.TextWrapped = true
+Fly.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/6veiLmaH'))()
+end)
+
+UICorner_10.CornerRadius = UDim.new(0, 20)
+UICorner_10.Parent = Fly
+
+HamsterBall.Name = "Hamster Ball"
+HamsterBall.Parent = ScrollingFrame
+HamsterBall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HamsterBall.Position = UDim2.new(0.264875233, 0, 0.148346752, 0)
+HamsterBall.Size = UDim2.new(0, 119, 0, 50)
+HamsterBall.Font = Enum.Font.GothamBlack
+HamsterBall.Text = "Hamster Ball"
+HamsterBall.TextColor3 = Color3.fromRGB(0, 0, 0)
+HamsterBall.TextSize = 21.000
+HamsterBall.TextWrapped = true
+HamsterBall.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/QLjhrYsX'))()
+end)
+
+UICorner_11.CornerRadius = UDim.new(0, 20)
+UICorner_11.Parent = HamsterBall
+
+Sonic.Name = "Sonic"
+Sonic.Parent = ScrollingFrame
+Sonic.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sonic.Position = UDim2.new(0.0249519944, 0, 0.146754399, 0)
+Sonic.Size = UDim2.new(0, 119, 0, 50)
+Sonic.Font = Enum.Font.GothamBlack
+Sonic.Text = "Sonic"
+Sonic.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sonic.TextSize = 35.000
+Sonic.TextWrapped = true
+Sonic.MouseButton1Down:connect(function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
+end)
+
+UICorner_12.CornerRadius = UDim.new(0, 20)
+UICorner_12.Parent = Sonic
+
+HatsV2.Name = "Hats V2"
+HatsV2.Parent = ScrollingFrame
+HatsV2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HatsV2.Position = UDim2.new(0.0230326653, 0, 0.245480508, 0)
+HatsV2.Size = UDim2.new(0, 119, 0, 50)
+HatsV2.Font = Enum.Font.GothamBlack
+HatsV2.Text = "Hats V2"
+HatsV2.TextColor3 = Color3.fromRGB(0, 0, 0)
+HatsV2.TextSize = 21.000
+HatsV2.TextWrapped = true
+HatsV2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/LZeL7Yfy'))()
+end)
+
+UICorner_13.CornerRadius = UDim.new(0, 20)
+UICorner_13.Parent = HatsV2
+
+SpiderMan.Name = "SpiderMan"
+SpiderMan.Parent = ScrollingFrame
+SpiderMan.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiderMan.Position = UDim2.new(0.752399325, 0, 0.0368817821, 0)
+SpiderMan.Size = UDim2.new(0, 119, 0, 50)
+SpiderMan.Font = Enum.Font.GothamBlack
+SpiderMan.Text = "Spider Man"
+SpiderMan.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpiderMan.TextSize = 21.000
+SpiderMan.TextWrapped = true
+SpiderMan.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/U90G2p9t'))()
+end)
+
+UICorner_14.CornerRadius = UDim.new(0, 20)
+UICorner_14.Parent = SpiderMan
+
+Invisibility.Name = "Invisibility"
+Invisibility.Parent = ScrollingFrame
+Invisibility.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Invisibility.Position = UDim2.new(0.262955904, 0, 0.245480508, 0)
+Invisibility.Size = UDim2.new(0, 119, 0, 50)
+Invisibility.Font = Enum.Font.GothamBlack
+Invisibility.Text = "Invisibility"
+Invisibility.TextColor3 = Color3.fromRGB(0, 0, 0)
+Invisibility.TextSize = 21.000
+Invisibility.TextWrapped = true
+Invisibility.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/skid123skidlol/cd0d2dce51b3f20ad1aac941da06a1a1/raw/f58b98cce7d51e53ade94e7bb460e4f24fb7e0ff/%257BFE%257D%2520Invisible%2520Tool%2520(can%2520hold%2520tools)",true))()
+end)
+
+UICorner_15.CornerRadius = UDim.new(0, 20)
+UICorner_15.Parent = Invisibility
+
+headless.Name = "headless"
+headless.Parent = ScrollingFrame
+headless.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+headless.Position = UDim2.new(0.508637309, 0, 0.245480508, 0)
+headless.Size = UDim2.new(0, 119, 0, 50)
+headless.Font = Enum.Font.GothamBlack
+headless.Text = "Headless"
+headless.TextColor3 = Color3.fromRGB(0, 0, 0)
+headless.TextSize = 21.000
+headless.TextWrapped = true
+headless.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/48rPQvme'))()
+end)
+
+UICorner_16.CornerRadius = UDim.new(0, 20)
+UICorner_16.Parent = headless
+
+FakeKick.Name = "Fake Kick"
+FakeKick.Parent = ScrollingFrame
+FakeKick.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FakeKick.Position = UDim2.new(0.752399325, 0, 0.245480508, 0)
+FakeKick.Size = UDim2.new(0, 119, 0, 50)
+FakeKick.Font = Enum.Font.GothamBlack
+FakeKick.Text = "Fake Kick"
+FakeKick.TextColor3 = Color3.fromRGB(0, 0, 0)
+FakeKick.TextSize = 21.000
+FakeKick.TextWrapped = true
+FakeKick.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/06raxhPH'))()
+end)
+
+UICorner_17.CornerRadius = UDim.new(0, 20)
+UICorner_17.Parent = FakeKick
+
+DaHoodMimic.Name = "Da Hood Mimic"
+DaHoodMimic.Parent = ScrollingFrame
+DaHoodMimic.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DaHoodMimic.Position = UDim2.new(0.0230327249, 0, 0.339429557, 0)
+DaHoodMimic.Size = UDim2.new(0, 119, 0, 50)
+DaHoodMimic.Font = Enum.Font.GothamBlack
+DaHoodMimic.Text = "Da Hood Mimic"
+DaHoodMimic.TextColor3 = Color3.fromRGB(0, 0, 0)
+DaHoodMimic.TextSize = 21.000
+DaHoodMimic.TextWrapped = true
+DaHoodMimic.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://icxy.xyz/NovaGui/NovaMimic", true))()
+end)
+
+UICorner_18.CornerRadius = UDim.new(0, 20)
+UICorner_18.Parent = DaHoodMimic
+
+ComingSoon.Name = "Coming Soon"
+ComingSoon.Parent = ScrollingFrame
+ComingSoon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ComingSoon.Position = UDim2.new(0.262955964, 0, 0.339429557, 0)
+ComingSoon.Size = UDim2.new(0, 119, 0, 50)
+ComingSoon.Font = Enum.Font.GothamBlack
+ComingSoon.Text = "Coming Soon"
+ComingSoon.TextColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon.TextSize = 21.000
+ComingSoon.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 20)
+UICorner_19.Parent = ComingSoon
+
+Dev.Name = "Dev"
+Dev.Parent = MainFrame
+Dev.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dev.BackgroundTransparency = 1.000
+Dev.Position = UDim2.new(0.0178306084, 0, 0.777070045, 0)
+Dev.Size = UDim2.new(0, 104, 0, 31)
+Dev.Font = Enum.Font.GothamBlack
+Dev.Text = "Devs:"
+Dev.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dev.TextSize = 14.000
+
+Devs.Name = "Devs"
+Devs.Parent = MainFrame
+Devs.BackgroundColor3 = Color3.fromRGB(113, 66, 255)
+Devs.BackgroundTransparency = 1.000
+Devs.Position = UDim2.new(0.0133729568, 0, 0.873126507, 0)
+Devs.Size = UDim2.new(0, 115, 0, 36)
+Devs.Font = Enum.Font.GothamBlack
+Devs.Text = "By: Clover King#6209 and YSNOW#0285"
+Devs.TextColor3 = Color3.fromRGB(117, 255, 96)
+Devs.TextScaled = true
+Devs.TextSize = 14.000
+Devs.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = MainFrame
+Close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Close.Position = UDim2.new(0.924219906, 0, -0.0923566893, 0)
+Close.Size = UDim2.new(0, 65, 0, 50)
+Close.Font = Enum.Font.GothamBlack
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+Close.MouseButton1Down:connect(function()
+	OpenFrame.Visible = true
+	MainFrame.Visible = false
+end)
+
+UICorner_20.Parent = Close
+
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = GalaxyHub
+OpenFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenFrame.Position = UDim2.new(0, 0, 0.605833471, 0)
+OpenFrame.Size = UDim2.new(0, 82, 0, 30)
+
+Open.Name = "Open"
+Open.Parent = OpenFrame
+Open.BackgroundColor3 = Color3.fromRGB(0, 230, 255)
+Open.Size = UDim2.new(0, 82, 0, 30)
+Open.Font = Enum.Font.GothamBold
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextSize = 14.000
+Open.MouseButton1Down:connect(function()
+	MainFrame.Visible = true
+	OpenFrame.Visible = false
+end)
+
+UICorner_21.Parent = Open
+
+UICorner_22.Parent = OpenFrame
